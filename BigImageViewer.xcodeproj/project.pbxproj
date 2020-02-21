@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C125AA8240101B40071D953 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C125AA7240101B40071D953 /* Model.swift */; };
+		2C2254E924016E730027AB46 /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2254E824016E730027AB46 /* Hash.swift */; };
+		2C3D4EFD2403EA470084EAC0 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D4EFC2403EA470084EAC0 /* ImageViewController.swift */; };
+		2C3D4EFF2403EFCB0084EAC0 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3D4EFE2403EFCB0084EAC0 /* ImageScrollView.swift */; };
 		2C5683062400580200AD7082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5683052400580200AD7082 /* AppDelegate.swift */; };
-		2C5683082400580200AD7082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5683072400580200AD7082 /* SceneDelegate.swift */; };
-		2C56830A2400580200AD7082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5683092400580200AD7082 /* ViewController.swift */; };
-		2C56830D2400580200AD7082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C56830B2400580200AD7082 /* Main.storyboard */; };
+		2C56830A2400580200AD7082 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5683092400580200AD7082 /* FilesViewController.swift */; };
 		2C56830F2400580300AD7082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C56830E2400580300AD7082 /* Assets.xcassets */; };
 		2C5683122400580300AD7082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5683102400580300AD7082 /* LaunchScreen.storyboard */; };
 		2C56831D2400580300AD7082 /* BigImageViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C56831C2400580300AD7082 /* BigImageViewerTests.swift */; };
+		2C56832824005A4000AD7082 /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C56832724005A4000AD7082 /* Operations.swift */; };
+		2CDBC6932402736F00298633 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBC6922402736F00298633 /* Log.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +31,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C125AA7240101B40071D953 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2C2254E824016E730027AB46 /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		2C3D4EFC2403EA470084EAC0 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		2C3D4EFE2403EFCB0084EAC0 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		2C5683022400580200AD7082 /* BigImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5683052400580200AD7082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C5683072400580200AD7082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C5683092400580200AD7082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C56830C2400580200AD7082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C5683092400580200AD7082 /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
 		2C56830E2400580300AD7082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C5683112400580300AD7082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C5683132400580300AD7082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C5683182400580300AD7082 /* BigImageViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigImageViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C56831C2400580300AD7082 /* BigImageViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigImageViewerTests.swift; sourceTree = "<group>"; };
 		2C56831E2400580300AD7082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C56832724005A4000AD7082 /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		2CDBC6922402736F00298633 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +88,16 @@
 			isa = PBXGroup;
 			children = (
 				2C5683052400580200AD7082 /* AppDelegate.swift */,
-				2C5683072400580200AD7082 /* SceneDelegate.swift */,
-				2C5683092400580200AD7082 /* ViewController.swift */,
-				2C56830B2400580200AD7082 /* Main.storyboard */,
 				2C56830E2400580300AD7082 /* Assets.xcassets */,
-				2C5683102400580300AD7082 /* LaunchScreen.storyboard */,
+				2C5683092400580200AD7082 /* FilesViewController.swift */,
+				2C2254E824016E730027AB46 /* Hash.swift */,
+				2C3D4EFE2403EFCB0084EAC0 /* ImageScrollView.swift */,
+				2C3D4EFC2403EA470084EAC0 /* ImageViewController.swift */,
 				2C5683132400580300AD7082 /* Info.plist */,
+				2C5683102400580300AD7082 /* LaunchScreen.storyboard */,
+				2CDBC6922402736F00298633 /* Log.swift */,
+				2C125AA7240101B40071D953 /* Model.swift */,
+				2C56832724005A4000AD7082 /* Operations.swift */,
 			);
 			path = BigImageViewer;
 			sourceTree = "<group>";
@@ -182,7 +194,6 @@
 			files = (
 				2C5683122400580300AD7082 /* LaunchScreen.storyboard in Resources */,
 				2C56830F2400580300AD7082 /* Assets.xcassets in Resources */,
-				2C56830D2400580200AD7082 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C56830A2400580200AD7082 /* ViewController.swift in Sources */,
+				2C56832824005A4000AD7082 /* Operations.swift in Sources */,
+				2C2254E924016E730027AB46 /* Hash.swift in Sources */,
+				2CDBC6932402736F00298633 /* Log.swift in Sources */,
+				2C3D4EFD2403EA470084EAC0 /* ImageViewController.swift in Sources */,
+				2C56830A2400580200AD7082 /* FilesViewController.swift in Sources */,
+				2C3D4EFF2403EFCB0084EAC0 /* ImageScrollView.swift in Sources */,
 				2C5683062400580200AD7082 /* AppDelegate.swift in Sources */,
-				2C5683082400580200AD7082 /* SceneDelegate.swift in Sources */,
+				2C125AA8240101B40071D953 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +241,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C56830B2400580200AD7082 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C56830C2400580200AD7082 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C5683102400580300AD7082 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -372,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lunarkey.BigImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lunarkey.BigImageViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
