@@ -109,7 +109,10 @@ final class LoadImageOperation: Operation {
             return UIImage(cgImage: image)
         }
 
-        let options = [kCGImageSourceThumbnailMaxPixelSize: thumbnailMaxPixelSize]
+        let options: Dictionary<CFString, Any> = [
+            kCGImageSourceThumbnailMaxPixelSize: thumbnailMaxPixelSize,
+            kCGImageSourceCreateThumbnailFromImageAlways: true
+        ]
         guard let image = CGImageSourceCreateThumbnailAtIndex(source, 0, options as CFDictionary) else {
             Log.error("create thumbnail")
             return nil
